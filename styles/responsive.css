@@ -1,0 +1,126 @@
+@media screen and (max-width: 680px) {
+
+    header{
+        margin: 0px 10px;
+    }
+
+    .hero{
+        flex-wrap: wrap-reverse;
+        border-radius: 0;
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .hero > div{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 2rem;
+        margin: 10px;
+    }
+
+    .vision > p{
+        margin: 10px;
+    }
+
+    .hero div > h1{
+        font-size: 1.8rem;
+        width: 90%;
+    }
+
+    .hero div > button{
+        margin-bottom: 20px;
+    }
+
+    .btn{
+        font-size: 17px;
+        padding: 10px;
+    }
+
+    .pillarsBox{
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .cardContainer{
+        flex-wrap: wrap;
+        margin: 10px;
+        gap: 0px;
+    }
+
+    .younus{
+        margin: 10px;
+    }
+
+    .recent > p{
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+
+    .news{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .news > img{
+        padding: 10px;
+    }
+
+    .news2{
+        flex-wrap: wrap-reverse;
+    }
+
+    .span{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .span > p{
+        font-size: 1.7rem;
+    }
+
+    .subscribe{
+        padding: 10px;
+        border-radius: 0;
+    }
+
+
+    .subInput > input{
+        width: 80%;
+    }
+    
+    .ss{
+        margin-bottom: 0;
+    }
+
+    .sstext{
+        margin-bottom: 20px;
+    }
+
+    .tdtext{
+        width: 60%;
+        padding: 10px;
+    }
+
+    .tdOp{
+        width: 40%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
