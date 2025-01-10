@@ -400,3 +400,72 @@ table tr{
     font-size: 20px;
     text-align: center;
 }
+
+
+
+/* Subscribe Newsletter */
+.subscribe{
+    border-radius: 24px;background: rgb(198, 228, 214);
+    padding: 80px  100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.subInput{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.subInput input{
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 15px;
+    border: none;
+    width: 70%;
+}
+
+.subInput > button{
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+}
+.subInput > button:hover{
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: white;
+}
+
+
+
+/* Footer Section */
+.foot{
+    background: rgb(255, 255, 255);
+    padding: 50px 0;
+    display: flex;
+    gap: 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot  hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin: 10px 0; /* Add vertical spacing */
+    width: 70%;
+}
+
+.social{
+    display: flex;
+    gap: 24px;
+    cursor: pointer;
+}
