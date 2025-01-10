@@ -27,9 +27,10 @@
     }
 
     .hero div > h1{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         color: rgb(81, 76, 76);
-        width: 90%;
+        width: 100%;
+        
     }
 
     .hero div > button{
