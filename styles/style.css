@@ -229,7 +229,7 @@ nav > .btn2{
 }
 
 .younus{
-    background-image: url(assets/quote-bg.png);
+    background-image: url(/assets/quote-bg.png);
     background-position: 30px 30px;
     background-repeat: no-repeat;
     background-size: 60px 60px;
