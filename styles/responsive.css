@@ -9,10 +9,12 @@
         padding: 10px;
         margin-top: 0;
         overflow: hidden;
+        gap: 5px;
     }
 
     .hero > div{
         width: 100%;
+        gap: 15px;
     }
 
     .title{
@@ -25,7 +27,8 @@
     }
 
     .hero div > h1{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        color: rgb(81, 76, 76);
         width: 90%;
     }
 
