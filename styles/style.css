@@ -6,3 +6,148 @@
     box-sizing: border-box;
     font-family: "Fira Sans", serif;
 }
+
+:root {
+    --green-color: rgb(0, 106, 80);
+    --light-green: rgb(198, 228, 214);;
+    --text-color: #333333;
+    --background-color: #f4f4f4;
+  }
+  
+
+.btn{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+}
+
+h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.text{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+section{
+    max-width: 1280px;
+    margin: 40px auto;
+}
+
+.title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* Nav Bar Design */
+nav{
+    max-width: 1280px;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+nav > h2{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+nav > .btn2{
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: var(--green-color);
+    background-color: white;
+}
+
+.btn2:hover{
+    background-color: var(--green-color);
+    color: white;
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    gap: 64px;
+    justify-content: space-between;
+    background-color: var(--light-green);
+    border-radius: 24px;
+}
+
+.hero div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero div h2{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero div h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.hero > img{
+    width: 470px;
+}
+
+.hero div > button{
+    width: 270px;
+}
+
+/* Pillars of Bangladesh 2.0 */
+.pillarsBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.pillarsBox > div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    background: rgb(255, 255, 255);
+}
+
+.pillarsBox > div > img{
+    width: 50px;
+}
