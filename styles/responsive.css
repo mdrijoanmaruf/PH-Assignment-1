@@ -2,14 +2,17 @@
     header{
         margin: 0px 10px;
     }
-
+    img{
+        overflow: hidden;
+    }
     .hero{
+        overflow: hidden;
         flex-wrap: wrap-reverse;
         border-radius: 0;
         padding: 10px;
         margin-top: 0;
         overflow: hidden;
-        gap: 5px;
+        gap: 45px;
     }
 
     .hero > div{
@@ -27,7 +30,7 @@
     }
 
     .hero div > h1{
-        font-size: 1.2rem;
+        font-size: 2rem;
         color: rgb(81, 76, 76);
         width: 100%;
         
